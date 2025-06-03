@@ -1,10 +1,17 @@
-# Lions Paw Darwin - Rapid Systematic Darwin Machine Recovery
+# The Lion's Paw Reanimation and Reconfiguration System for Darwin (MacOs Monteray or higher)
+> Designed for both Intel and Silcon based Darwin Macintosh systems affected by catastrophic disk failures or equally devestating events that warrent a full system resinstallation and reconfigureation.
+
+
+## READY TO ROCK AN ROLL? [Start Here](https://github.com/jellylabs-ltd/the-lions-paw-reanimation-and-reconfiguration-system-for-darwin/blob/main/phase-one.md) otherwise you may read-on.
+
 
 ## Project Overview
-A comprehensive disaster recovery system designed to rapidly restore development and work machines to operational status following unrecoverable failures or catastrophic events. This project was inteded to ensures that no single point of failure can permanently disrupt your development workflow. By maintaining comprehensive, automated, and tested recovery procedures, you can confidently face any catastrophic event knowing your development environment can be fully restored quickly and reliably.
+A comprehensive disaster recovery system designed to rapidly restore Intel and Silcon based Darwin Macintosh systems to operational status following unrecoverable failures or catastrophic events. This project was inteded to ensure that no single point of failure can permanently disrupt your development or production workflow, well for to long anyways. By maintaining comprehensive, automated, and tested recovery procedures, you can confidently face any catastrophic event knowing your personal or work (dev/prod/staging) machine's environment can be fully restored quickly and reliably with minimal downtime.
+
+
 
 ## Core Objectives
-- **Rapid Recovery**: Minimize downtime from hours/days to minutes
+- **Rapid-Phased-Systematic recovery approach**: Minimize downtime from hours/days to minutes
 - **Complete Environment Restoration**: Recreate entire development ecosystem
 - **Automated Deployment**: Reduce manual intervention and human error
 - **Version Control Integration**: Sync with current project states
@@ -61,12 +68,12 @@ A comprehensive disaster recovery system designed to rapidly restore development
 ### 4. Automation Scripts
 **Deployment and restoration automation**
 
-#### Bootstrap Scripts
-```bash
-# Quick start recovery script
-# WARNING - ONLY RUN AFTER COMPLETING STEPS 1 and 2 of "phase-one"
+#### Bootstrap Scripts:
+```
+# -- COMMING SOON -- (FEATURE NOT YET IMPLEMENTED)
+# Quick start recovery script ->
 # Uncomment the bash at the end. `bootstrap.sh | bash` to activate this one-line installer.
-curl -sSL https://raw.githubusercontent.com/jellylabs-ltd/lions-paw-darwin/main/bootstrap.sh | #bash
+## curl -sSL https://raw.githubusercontent.com/jellylabs-ltd/lions-paw-reanimation-system-for-darwin/main/bootstrap.sh | #bash
 ```
 
 ### 5. Cloud Integration
@@ -201,4 +208,4 @@ curl -sSL https://raw.githubusercontent.com/jellylabs-ltd/lions-paw-darwin/main/
 
 ---
 
-**Lions Paw Darwin** ensures that no single point of failure can permanently disrupt your development workflow. By maintaining comprehensive, automated, and tested recovery procedures, you can confidently face any catastrophic event knowing your development environment can be fully restored quickly and reliably.
+**The Lion's Paw Reanimation and Reconfiguration System for Darwin** ensures that no single point of failure can permanently disrupt your development workflow. By maintaining comprehensive, automated, and tested recovery procedures, you can confidently face any catastrophic event knowing your development environment can be fully restored quickly and reliably.
