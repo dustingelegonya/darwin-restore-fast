@@ -64,7 +64,9 @@ A comprehensive disaster recovery system designed to rapidly restore development
 #### Bootstrap Scripts
 ```bash
 # Quick start recovery script
-curl -sSL https://raw.githubusercontent.com/jellylabs-ltd/lions-paw-darwin/main/bootstrap.sh | bash
+# WARNING - ONLY RUN AFTER COMPLETING STEPS 1 and 2 of "phase-one"
+# Uncomment the bash at the end. `bootstrap.sh | bash` to activate this one-line installer.
+curl -sSL https://raw.githubusercontent.com/jellylabs-ltd/lions-paw-darwin/main/bootstrap.sh | #bash
 ```
 
 ### 5. Cloud Integration
