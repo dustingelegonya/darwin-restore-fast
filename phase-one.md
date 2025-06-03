@@ -20,11 +20,12 @@ sudo xcode-select --install
 sudo xcodebuild -license accept
 ```
 
-- [ ] Step 3 - Install Homebrew (the following is all a single instruction set, paste all three lines as one single unified statement)
+- [ ] Step 3 - Install Homebrew (the following is all a single instruction set, paste all four lines as one single unified statement)
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && \
   echo >> ~/.zprofile && \
-  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile eval "$(/opt/homebrew/bin/brew shellenv)"
+  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile && \
+  eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 - [ ] Step 4 - Install Volta
