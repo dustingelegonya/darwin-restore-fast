@@ -1,45 +1,64 @@
-The intention of this project is to assist my employees in getting their darwain machines up and running agian rapidly in the event of a disaster.
+Initial Setup / General Outline (v0.0.1-alpha) 
+===============
+> !!!THIS IS ALPHA!!! Just brainstorming at this point building an outline / roadmap.
 
-Install Homebrew:
+Step 1: Package Managers & Programming Languages
 
-- [x] /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-	- [x] echo >> /Users/indigo/.zprofile
-	- [x] echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/indigo/.zprofile eval "$(/opt/homebrew/bin/brew shellenv)"
-- [ ] Warp: 
-	- [ ] brew install warp
-	- [ ] brew install protobuf
-- [ ] Zed: 
-	- [ ] brew install --cask zed
-- [ ] Deno2: 
-	- [ ] brew install deno 
-- [ ] Rust: 
-	- [ ] brew istall rust
+- [ ] Homebrew:
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" && \
+	echo >> ~/.zprofile && \
+	echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile eval "$(/opt/homebrew/bin/brew shellenv)"`
 - [ ] Zig: 
-	- [ ] brew install zig
-
-- [ ] Bun (alt) brew tap oven-sh/bun && brew install bun
-
-- [ ] ChatGPT: 
-	- [ ] brew install --cask chatgpt
-- [ ] Blender:
-	- [ ]  brew install --cask blender
+`brew install zig`
+- [ ] Rust: 
+`brew istall rust`
 - [ ] Volta: 
-	- [ ] brew install volta && echo 'export PATH="$HOME/.volta/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc
+`brew install volta && echo 'export PATH="$HOME/.volta/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc`
 - [ ] Yarn: 
-	- [ ] volta install yarn
+`volta install yarn`
 - [ ] Node: 
-	- [ ] volta install node
+`volta install node`
 - [ ] Podman
-	- [ ] brew install podman
+`brew install podman`
 
----
+### DevTools
+- [ ] Warp: 
+`brew install warp && brew install protobuf`
+- [ ] Zed: 
+`brew install --cask zed`
 
-## Obsidian
-- [ ] brew install --cask obsidian
+### Knowelage Maps
+- [ ] Obsidian
+`brew install --cask obsidian`
 
-## Photo Software
-- [ ] brew install --cask imageoptim
+### Photo & Video Production Software / Tools / Libs
+- [ ] Blender:
+`brew install --cask blender`
+- [ ] Imageoptim
+`brew install --cask imageoptim`
+- [ ] ffmpeg (required by KeyFlow2 & Pano2VR)
+`brew install ffmpeg`
 
-## ffmpeg
-> Needed by Pano2VR when creating Video
-brew install ffmpeg
+### Ai
+- [ ] ChatGPT: 
+`brew install --cask chatgpt`
+
+### App Store - Need to manually install app store software. 
+> TODO: Can this be automated?
+- [ ] IDE's
+    - [ ] Xcode
+- [ ] Design Apps
+    - [ ] FinalCut Pro
+    - [ ] Logic Pro
+    - [ ] Compressor
+    - [ ] Motion
+    - [ ] Hype4
+- [ ] Safari Extensions
+    - [ ] Dark Reader
+    - [ ] Bitwarden
+
+
+
+
+
+
