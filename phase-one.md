@@ -28,9 +28,11 @@ sudo xcodebuild -license accept
   eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-- [ ] Step 4 - Install Volta
+- [ ] Step 4 - Install Volta and Curl
 ```
-brew install volta && echo 'export PATH="$HOME/.volta/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc
+brew install curl volta && \
+  echo 'export PATH="$HOME/.volta/bin:$PATH"' >> ~/.zshrc && \
+  source ~/.zshrc
 ```
 
 - [ ] Step 5 - Initiate the automated install phase:
@@ -40,4 +42,5 @@ curl -sSL https://raw.githubusercontent.com/jellylabs-ltd/the-lions-paw-reanimat
 ```
 
 
-- [ ] Step 6 - Finish manual App Store installations using this checklist as a reference: [Manual Installation Checklist](https://github.com/jellylabs-ltd/the-lions-paw-reanimation-and-reconfiguration-system-for-darwin/blob/main/manual-install.md)
+- [ ] Step 6 - Finish manual App Store installations using this checklist as a reference:
+[Manual Installation Checklist](https://github.com/jellylabs-ltd/the-lions-paw-reanimation-and-reconfiguration-system-for-darwin/blob/main/manual-install.md)
