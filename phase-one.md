@@ -9,8 +9,7 @@ Phase 1: Configuration Capture
 Comming Soon: A 'one-liner' located here will download and run the bootstrap.sh script, automating the entire process. Until then please advance to Step 1, below...
 ```
 
-
-- [ ] Step 1 - Install Xcode (Build Tools)
+- [ ] Step 1 - Install Xcode (Build Tools)  
 ```
 sudo xcode-select --install
 ```
