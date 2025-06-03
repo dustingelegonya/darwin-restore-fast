@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # Utilities:
 brew install wget curl git
