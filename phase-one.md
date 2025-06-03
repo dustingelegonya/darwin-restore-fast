@@ -38,9 +38,9 @@ brew install curl volta && \
 - [ ] Step 5 - Initiate the automated install phase:
 Paste the following line into your terminal:
 ```
-curl -sSL https://raw.githubusercontent.com/jellylabs-ltd/the-lions-paw-reanimation-and-reconfiguration-system-for-darwin/blob/main/step-five.sh | bash
+curl -sSL https://raw.githubusercontent.com/jellylabs-ltd/the-lions-paw-phased-rapid-reanimation-system-for-darwin/blob/main/step-five.sh | bash
 ```
 
 
 - [ ] Step 6 - Finish manual App Store installations using this checklist as a reference:
-[Manual Installation Checklist](https://github.com/jellylabs-ltd/the-lions-paw-reanimation-and-reconfiguration-system-for-darwin/blob/main/manual-install.md)
+[Manual Installation Checklist](https://github.com/jellylabs-ltd/the-lions-paw-phased-rapid-reanimation-system-for-darwin/blob/main/manual-install.md)
