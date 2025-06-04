@@ -1,3 +1,6 @@
+UNSTSABLE - Currently in Alpha Develpment Status - Use at your own risk!
+=========
+
 The Lion's Paw Phased-Rapid-Reanimation System for Darwin (MacOs Monteray or higher)
 > Designed for both Intel and Silcon based Darwin Macintosh systems affected by catastrophic disk failures or equally devestating events that warrent a full system resinstallation and reconfigureation.
 
