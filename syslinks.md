@@ -2,6 +2,7 @@ iCloud / Home Symlink Customizations
 ===================================================
 > Purpose is to off load these directories to the cloud for easier maintenance.
 
+```
 Applications -> /Volumes/ultra-fast-mirror/private/indigo/applications
 Assets -> /Users/indigo/iCloud/[assets]
 Bench -> /Users/indigo/iCloud/[bench]
@@ -20,7 +21,7 @@ Pictures -> /Volumes/backups
 Projects -> /Users/indigo/iCloud/[projects]
 Screenshots -> /Users/indigo/iCloud/[screenshots]
 Public -> /Volumes/public
----
+```
 
 - [x] Step 1 -Confirm you are syncing to iCloud drive located here:
 ```
