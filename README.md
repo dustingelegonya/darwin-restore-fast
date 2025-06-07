@@ -1,4 +1,4 @@
-UNSTSABLE - Currently in Alpha Develpment Status - Use at your own risk!
+UN-STABLE - Currently in Alpha Develpment Status - Use at your own risk!
 =========
 
 The Lion's Paw Phased-Rapid-Reanimation System for Darwin (MacOs Monteray or higher)
